@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+
+/*for the all the links on the page*/
+a, a:link, a:visited, a:hover, a:active {
+  color: black;
+  text-decoration: none;
+}
+
+/*sets the background image to the screen it is on*/
+body {
+  background-image: url(images/background/white-brick-wall.jpg);
+  background-size: 100%;
+}
+
+/*made in order of elements as they appear*/
+main {
+  margin: 10%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/*this is for self-portrait: the border-radius makes the image round; ***note*** the image itself is a square*/
+.selfie {
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  font-size: 10px;
+}
