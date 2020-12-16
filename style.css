@@ -24,11 +24,20 @@ main {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 80px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
 }
 
 h2 {
   font-size: 30px;
+  padding-top: 40px;
+}
+
+h3 {
+  padding-top: 20px;
 }
 
 /*this is for self-portrait: the border-radius makes the image round; ***note*** the image itself is a square*/
@@ -36,6 +45,7 @@ h2 {
   width: 30%;
   height: 30%;
   border-radius: 50%;
+  padding: 25px;
 }
 
 .icon {
